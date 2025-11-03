@@ -47,42 +47,6 @@ nav a:hover {
   color: #c5a156;
 }
 
-/* Hero Section */
-.hero {
-  background: url('https://images.unsplash.com/photo-1599599810763-3d6b14c70f5d?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
-  color: #fff;
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  padding: 2rem;
-  position: relative;
-}
-
-.hero::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.55);
-}
-
-.hero-content {
-  position: relative;
-  z-index: 1;
-  max-width: 700px;
-}
-
-.hero h2 {
-  font-size: 2.2rem;
-  margin-bottom: 1rem;
-}
-
-.hero p {
-  font-size: 1.1rem;
-  margin-bottom: 1.5rem;
-}
-
 .btn {
   background: #c5a156;
   color: #fff;
@@ -108,26 +72,6 @@ h2 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
   color: #222;
-}
-
-/* Services */
-.service-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  margin-top: 1.5rem;
-}
-
-.service {
-  background: #fff;
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.service h3 {
-  color: #c5a156;
-  margin-bottom: 0.5rem;
 }
 
 /* Contact */
@@ -160,7 +104,4 @@ footer {
     margin-top: 1rem;
   }
 
-  .hero h2 {
-    font-size: 1.8rem;
-  }
 }
