@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+/* Background behind the page */
 body {
   font-family: "Segoe UI", Arial, sans-serif;
   line-height: 1.6;
@@ -33,9 +34,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
-  top: 0;
-  z-index: 10;
+  flex-wrap: wrap;
 }
 
 header h1 {
@@ -76,8 +75,6 @@ nav a:hover {
 /* Sections */
 main section {
   padding: 3rem 2rem;
-  max-width: 1000px;
-  margin: auto;
   text-align: center;
 }
 
@@ -101,20 +98,13 @@ footer {
   background: #222;
   color: #bbb;
   font-size: 0.9rem;
-  margin-top: 2rem;
 }
 
 /* Responsive */
 @media (max-width: 600px) {
-  header {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
   nav ul {
     flex-direction: column;
     gap: 0.5rem;
     margin-top: 1rem;
   }
-
 }
